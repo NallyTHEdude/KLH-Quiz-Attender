@@ -1,0 +1,19 @@
+{
+  "name": "auto-exam-attender",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "noNext": "node src/noNext.js",
+    "next" : "node src/nextButton.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.20.0",
+    "dotenv": "^17.2.2",
+    "puppeteer": "^24.22.3"
+  },
+  "type": "module"
+}
