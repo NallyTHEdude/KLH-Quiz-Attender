@@ -35,3 +35,7 @@ Scroll through all → Answer → Submit
 ### For quizzes with a Next button
 ```bash
 npm run next
+
+### For quizzes without a Next button
+```bash
+npm run noNext
