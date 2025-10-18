@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "noNext": "node src/noNext.js",
+    "noNext": "node src/noNextButton.js",
     "next" : "node src/nextButton.js"
   },
   "author": "",

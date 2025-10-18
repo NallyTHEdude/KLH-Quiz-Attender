@@ -2,9 +2,9 @@ import puppeteer from "puppeteer";
 import dotenv from "dotenv";
 import { aiResponse } from "./aiConfig.js";
 
-dotenv.config({
-  path: "../.env",
-});
+dotenv.config({ path: "./.env" });
+console.log("[DEBUG] ENV loaded. LMS_URL =", process.env.LMS_URL);
+
 
 (async () => {
   const browser = await puppeteer.launch({
